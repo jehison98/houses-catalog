@@ -1,0 +1,36 @@
+/*----------------------HOUSE DETAILS-------------------------*/
+
+#house-details {
+    padding-top: 0rem;
+}
+
+#house-details .features-details .features-container .feature-info p {
+    margin: 0;
+}
+
+#house-details .features-details .features-container {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-bottom: 2px solid #ececec;
+    border-left: 2px solid #ececec;
+    border-right: 2px solid #ececec;
+}
+
+#house-details .features-details .boder-top-feature {
+    border-top: 2px solid #ececec;
+}
+
+#house-details .features-details .features-container .feature-icon {
+    width: 30%;
+    border-right: 2px solid #ececec;
+}
+
+#house-details .features-details .features-container .feature-info {
+    width: 70%;
+    padding-left: 0.5rem;
+}
+
+#house-details .features-details .features-container .feature-icon, .feature-info {
+    padding: 0.5rem 0;
+}

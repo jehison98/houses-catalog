@@ -1,0 +1,61 @@
+/* ---------------FOOTER------------------------ */
+#footer {
+    padding-top: 3rem;
+    background-color: #272727;
+    color: #fff;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer .social-media {
+    font-size: 1.5rem;
+}
+
+#footer .social-media i {
+    margin: 0 0.2rem;
+    transition: opacity 0.3s ease;
+}
+#footer .social-media i:hover {
+    opacity: 0.5;
+}
+
+#footer .footer-text {
+    margin: 1rem auto;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+#footer .footer-text p {
+    margin-top: 1rem;
+}
+
+#footer .footer-text p a{
+    transition: opacity 0.3s ease;
+}
+#footer .footer-text p a:hover{
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
+#footer .author {
+    padding-bottom: 1rem;
+}
+
+#footer .author h5 {
+    font-size: 0.9rem;
+}
+
+#footer .author h5 a {
+    transition: opacity 0.3s ease;
+}
+#footer .author h5 a:hover {
+    opacity: 0.5;
+}
+
+#footer .author h5 a {
+    text-decoration: underline;
+    margin-top: 0.5rem;
+}

@@ -1,0 +1,110 @@
+/* ---------HOUSE GALLERY--------------------------------- */
+
+#house-gallery .card {
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 2px 4px 0px, rgba(60, 64, 67, 0.15) 0px 4px 12px 4px;
+}
+
+#galleryCarousel .carousel-inner .carousel-item {
+    cursor: zoom-in;
+}
+
+#customGalleryCarousel #img-container {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: hidden;
+    margin-top: 0.5rem;
+}
+
+#customGalleryCarousel #img-container [class*=arrow] {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    padding: .2rem .3rem;
+    background-color: #272727;
+    color: #fff;
+    opacity: .7;
+    cursor: pointer;
+    z-index: 199;
+}
+
+#customGalleryCarousel #img-container .arrow-left {
+    left: 0;
+    margin-left: 0.3rem;
+}
+
+#customGalleryCarousel #img-container .arrow-right {
+    right: 0;
+    margin-right: 0.3rem;
+}
+
+#customGalleryCarousel #img-container .carousel-img-container {
+    position: relative;
+    padding: .2rem;
+    min-width: 50%;
+    overflow: hidden;
+}
+
+#customGalleryCarousel #img-container .carousel-img-container img {
+    width: 100%;
+    cursor: pointer;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+#customGalleryCarousel #img-container .carousel-img-container .active {
+    transform: translateY(-10px);
+    opacity: 0.4;
+}
+
+/* Carousel shows when overlay is active */
+
+#carouselOverlay {
+    position: fixed;
+    left: 13%;
+    width: 75%;
+    transform: scale(0);
+    z-index: 993;
+}
+
+#carouselOverlay i.fa-times {
+    color: #fff;
+    position: fixed;
+    top: 0%;
+    right: -12%;
+    opacity: 0.5;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 994;
+    transition: opacity 0.3s ease;
+}
+#carouselOverlay i.fa-times:hover {
+    opacity: 1;
+}
+
+
+#carouselOverlay .carousel-item img {
+    width: 100%;
+}
+
+#carouselOverlay .house-carousel-prevControl, #carouselOverlay .house-carousel-nextControl {
+    background-color: transparent;
+    font-size: 2rem;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+
+#carouselOverlay .house-carousel-prevControl:hover, .house-carousel-nextControl:hover {
+    opacity: 1;
+}
+
+#carouselOverlay .house-carousel-prevControl {
+    left: -15%;
+}
+
+#carouselOverlay .house-carousel-nextControl {
+    right: -15%;
+}

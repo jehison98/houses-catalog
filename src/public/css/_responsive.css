@@ -1,0 +1,99 @@
+@media only screen and (max-width: 575px) {
+
+    #carouselOverlay {
+        top: 35% !important;
+    }
+    #carouselOverlay .house-carousel-prevControl, #carouselOverlay .house-carousel-nextControl, #carouselOverlay i.fa-times {
+        font-size: 1.5rem !important;
+    }
+
+}
+
+@media only screen and (min-width: 576px) {
+    /* Navbar */
+    .navbar-toggler i.fa-bars {
+        font-size: 1.8rem;
+    }
+    .navbar #navbar-logo {
+        width: 40% !important;
+    }
+
+    #carouselOverlay {
+        top: 20% !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    html {
+        font-size: 18px;
+    }
+    /* Navbar */
+    #navbar .navbar-nav {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        border: none;
+        font-size: 1.3rem;
+    }
+    .navbar #navbar-logo {
+        width: 30% !important;
+    }
+    /* Contact */
+    #contact .contact-content .form-card {
+        padding-right: 0rem;
+    }
+    #contact .contact-content .padding-cero {
+        padding: 0;
+    }
+    #contact .contact-content .other-contacts-card .list-group li.list-group-item {
+        margin-top: 0.7rem;
+        margin-bottom: 0.7rem;
+    }
+    #contact .contact-content .other-contacts-card .list-group .list-group-item .icon-content {
+        font-size: 1.3rem !important;
+    }
+    /* Gallery house house view */
+    #customGalleryCarousel #img-container .carousel-img-container {
+        min-width: 33.33% !important;
+    }
+    /* House details  house view*/
+    #house-details .features-details-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    #house-details .features-details-container .features-details {
+        width: 40%;
+    }
+    #house-details .features-details-container .info-details {
+        width: 60%;
+    }
+    /* Whats app Btn */
+    #whatsapp-btn .whatsapp-btn-container {
+        width: 60px !important;
+        height: 60px !important;
+        font-size: 2.2rem !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    /* Navbar */
+    .navbar #navbar-logo {
+        width: 20% !important;
+    }
+    /* Gallery house view */
+    #customGalleryCarousel #img-container .carousel-img-container {
+        min-width: 25% !important;
+    }
+
+    #carouselOverlay {
+        top: 5% !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    /* Navbar */
+    .navbar #navbar-logo {
+        width: 15% !important;
+    }
+}

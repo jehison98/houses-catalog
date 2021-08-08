@@ -1,0 +1,31 @@
+/* ----------------SELECTORS---------------- */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+article {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+hr {
+    height: 1px;
+    max-width: 100%;
+    border: 0;
+    background-image: linear-gradient(to right, transparent, #f77f00, transparent);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}

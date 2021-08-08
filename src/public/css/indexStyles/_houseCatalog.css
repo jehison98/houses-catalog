@@ -1,0 +1,66 @@
+/* ------------HOUSE CATALOG CLASSES----------------- */
+#houses-catalog .card {
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, .25) 0px 6px 12px -2px, rgba(0, 0, 0, .3) 0px 3px 7px -3px;
+}
+
+#houses-catalog .card .card-body a {
+    text-decoration: none;
+    color: #333;
+}
+
+#houses-catalog .card .card-body a h5 {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    transition: color 0.3s ease
+}
+
+#houses-catalog .card .card-body a h5:hover {
+    color: #f77f00;
+    text-decoration: underline
+}
+
+#houses-catalog .card .card-body ul {
+    width: 100%;
+    flex-direction: row;
+}
+
+#houses-catalog .card .card-body ul li {
+    width: 33.33%;
+    padding: 0.8rem 0rem;
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+#houses-catalog .card .card-body ul li:nth-child(2) {
+    border-left: 1px solid rgba(0, 0, 0, 0.125);
+    border-right: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+#houses-catalog .card .card-body ul li .house-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+#houses-catalog .card .card-body ul li .house-details i {
+    margin-right: 0.5rem;
+}
+
+#houses-catalog .card .card-footer {
+    background-color: #ececec;
+    padding: 0.75rem 1rem;
+}
+
+#houses-catalog .card .card-footer button {
+    border: 1px solid #000;
+    border-radius: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#houses-catalog .card .card-footer button:hover {
+    background-color: #f77f00;
+    color: #fff;
+}

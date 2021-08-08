@@ -1,0 +1,42 @@
+/* --------------NAVBAR CLASSES----------------------- */
+.navbar {
+    background-color: transparent;
+    position: fixed;
+    padding: 0.1rem 1rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 900;
+    transition: background-color 0.3s ease, padding 0.3s ease ;
+}
+
+.scroll-navbar {
+    background-color: rgba(39,39,39,.9);
+    padding: 0.3rem 1rem;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler i {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.navbar-nav {
+    border-top: 1px solid #fff;
+    text-align: center;
+}
+
+.navbar-nav a {
+    color: #fff;
+}
+
+.navbar #navbar-logo {
+    width: 50%;
+}
+
+.navbar #navbar-logo img {
+    width: 100%;
+}

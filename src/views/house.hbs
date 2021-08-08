@@ -1,0 +1,15 @@
+<article id="house-video">
+    <video autoplay muted controls disablepictureinpicture controlsList="nodownload" loop>
+        <source src="/public/upload/{{houseInfo.video}}" type="video/mp4">
+        Tu navegador no soporta este video.
+    </video>
+</article>
+
+{{> houseViews/houseGallery}}
+
+{{> houseViews/houseDetails}}
+
+{{> houseViews/houseLocation}}
+
+{{!-- CUSTOM CODE --}}
+<script src="/public/js/house.js"></script>

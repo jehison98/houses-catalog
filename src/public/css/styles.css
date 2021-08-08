@@ -1,0 +1,25 @@
+/* Modifications to some classes and selectors */
+@import './mainStyles/_selectors.css';
+@import './mainStyles/_global.css';
+@import './mainStyles/_carouselBstr.css'; 
+
+/* Media querys */
+@import './_responsive.css';
+
+/* Sections in all views */
+@import './mainStyles/_navbar.css';
+@import './mainStyles/_contact.css';
+@import './mainStyles/_footer.css';
+@import './mainStyles/_whtsBtn.css';
+
+/* Index styles */
+@import './indexStyles/_homeBanner.css';
+@import './indexStyles/_houseCatalog.css';
+@import './indexStyles/_houseCatalog.css';
+
+/* House Styles */
+@import './houseStyles/_video.css';
+@import './houseStyles/_gallery.css';
+@import './houseStyles/_details.css';
+@import './houseStyles/_location.css';
+
