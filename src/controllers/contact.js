@@ -19,10 +19,12 @@ ctrl.index = async (req, res) => {
         to: "jehison3098@gmail.com",
         subject: `Message from ${req.body.name}`,
         html: `
-            <p>${req.body.name}</p> <br> 
-            <p>${req.body.email}</p> <br> 
-            <p>${req.body.phone}</p> <br> 
-            <p>${req.body.message}</p> <br> 
+            <p>
+                Nombre: ${req.body.name}<br>
+                Correo: ${req.body.email}<br>
+                Teléfono: ${req.body.phone}
+            </p>
+            <p>${req.body.message}</p>
             `,
     }
 
