@@ -94,11 +94,6 @@
     background-color: transparent;
     font-size: 2rem;
     opacity: 0.6;
-    transition: opacity 0.3s ease;
-}
-
-#carouselOverlay .house-carousel-prevControl:hover, .house-carousel-nextControl:hover {
-    opacity: 1;
 }
 
 #carouselOverlay .house-carousel-prevControl {

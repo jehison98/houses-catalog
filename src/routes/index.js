@@ -9,7 +9,7 @@ const contact = require('../controllers/contact');
 module.exports = app => {
 
     router.get('/', home.index);
-    router.get('/houses/:house_id', house.index);
-    router.post('/contact', contact.index);
+  /*   router.get('/houses/:house_id', house.index);
+    router.post('/contact', contact.index); */
     app.use(router);
 }

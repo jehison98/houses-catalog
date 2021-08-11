@@ -4,12 +4,11 @@ const { Schema } = mongoose;
 const HouseSchema = new Schema({
     title: { type: String },
     meters: {type: Number},
-    baths: {type: Number},
+    baths: {type: String},
     rooms: {type: Number},
     description: { type: String },
     video: { type: String },
     location: { type: String },
-    timestamp: { type: Date, default: Date.now } 
 });
 
 HouseSchema.virtual('images')

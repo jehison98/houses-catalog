@@ -12,6 +12,11 @@
     font-size: 1rem;
     border-radius: 2px;
     opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.house-carousel-prevControl:hover, .house-carousel-nextControl:hover {
+    opacity: 1;
 }
 
 .house-carousel-prevControl {
