@@ -237,7 +237,7 @@ function clearInputs() {
 
 /* Fetch function to send inputs value to the banckend and the backend sent a email */
 function sendValues() {
-    let url = "http://localhost:3050/contact";
+    let url = "https://catalog-prototype.herokuapp.com/contact";
     let formData = {};
 
     $("#contactModal").modal();
