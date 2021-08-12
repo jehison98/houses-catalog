@@ -313,8 +313,3 @@ function resetModal() {
     modalContent.style.background = '#fff';
     modalContent.style.color = '#000'; 
 }
-
-
-//Home banner JS
-const homeBanner = document.querySelector('.home-banner');
-homeBanner.style.height = `${window.innerHeight}px`;

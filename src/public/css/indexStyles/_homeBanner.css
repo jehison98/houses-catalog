@@ -16,6 +16,7 @@
     position: relative;
     text-align: center;
     width: 100%;
+    height: 100vh;
     background-image: url('../../upload/casa_portada_2.jpg');
     background-position: center center;
     background-repeat: no-repeat;
