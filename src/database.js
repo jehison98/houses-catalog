@@ -1,6 +1,6 @@
 //mysql
 const mysql = require('mysql');
-const { promisify } = require('util');  
+const { promisify } = require('util');
 
 const { database } = require('./keys');
 
@@ -11,22 +11,14 @@ pool.getConnection((err, connection) => {
         console.log('Error with database connection');
     }
 
-    if (connection) connection.release();
-    console.log('DB is connected');
+    if (connection) {
+        connection.release();
+        console.log('DB is connected'); 
+    }
     return;
 
 });
 
-pool.query =  promisify(pool.query);
+pool.query = promisify(pool.query);
 
 module.exports = pool
-
-
-//Mongodb
-/* const mongoose = require('mongoose');
-
-const { database } = require('./keys');
-
-mongoose.connect(database.URI, { useNewUrlParser: true, useUnifiedTopology: true })
-    .then(db => console.log('DB is connected'))
-    .catch(err => console.log(err)) */

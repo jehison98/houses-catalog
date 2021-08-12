@@ -7,7 +7,7 @@
             <div class="carousel-inner">
                 {{#each houseInfo.images}}
                 <div class="carousel-item">
-                    <img  class="img-fluid" src="/public/upload/{{filename}}" alt="Slide {{@index}}">
+                    <img  class="img-fluid" src="/public/upload/{{image_url}}" alt="Slide {{@index}}">
                 </div>
                 {{/each}}
             </div>
@@ -32,7 +32,7 @@
                     <div class="carousel-inner">
                         {{#each houseInfo.images}}
                         <div class="carousel-item">
-                            <img data-target="#carouselOverlay" data-slide-to="{{@index}}" class="d-block w-100" src="/public/upload/{{filename}}" alt="Slide {{@index}}">
+                            <img data-target="#carouselOverlay" data-slide-to="{{@index}}" class="d-block w-100" src="/public/upload/{{image_url}}" alt="Slide {{@index}}">
                         </div>
                         {{/each}}
                     </div>
@@ -50,7 +50,7 @@
                         {{#each houseInfo.images}}
                         <div class="carousel-img-container">
                             <img data-target="#galleryCarousel" data-slide-to="{{@index}}"
-                                src="/public/upload/{{filename}}" alt="imagen {{filename}}" class="img-fluid">
+                                src="/public/upload/{{image_url}}" alt="imagen {{filename}}" class="img-fluid">
                         </div>
                         {{/each}}
                     </div>
