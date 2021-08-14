@@ -311,5 +311,18 @@ function resetModal() {
         </div>
     `
     modalContent.style.background = '#fff';
-    modalContent.style.color = '#000'; 
+    modalContent.style.color = '#000';
 }
+
+
+//Page loading spinner
+window.onload = () => {
+    const loader = document.querySelector('.loader');
+    const timer = 500
+    loader.style.transition = `opacity ${timer}ms ease`;
+    loader.style.opacity = '0';
+    setTimeout(() => {
+        loader.style.display = 'none';
+    }, timer); 
+}
+

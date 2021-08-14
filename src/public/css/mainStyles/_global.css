@@ -34,3 +34,35 @@
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 992;
 }
+
+.loader {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    z-index: 994;
+}
+
+.loader-spin {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: -50px;
+    margin-left: -50px;
+    border-radius: 50%;
+    border: 15px solid rgba(0, 0, 0, 0.3);
+    border-left-color: #f77f00;
+    z-index: 995;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
